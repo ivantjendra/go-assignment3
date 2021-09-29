@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+
+* {
+  margin: 0
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+  background-color: #23272a;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 450px;
+  height: 150px;
+  background-color: #434445;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.font-lg {
+  font-size: 50px;
+}
+
+.content {
+  color: #9fb3fc;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+}
+
+.number {
+  color: rgb(0, 206, 206);
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.status {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
